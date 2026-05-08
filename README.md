@@ -1,4 +1,19 @@
+<div align="center">
+  <img src="https://via.placeholder.com/150x50/FAF7F2/2D2D2D?text=SAATVIK" alt="Saatvik Logo" width="200" />
+  <br />
+  <h1>Saatvik</h1>
+  <p><strong>Where Heritage Meets Modernity — A Premium Women's Fashion Experience</strong></p>
 
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-15.1-black?style=flat-square&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/TypeScript-5.6-blue?style=flat-square&logo=typescript" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-4.0-06B6D4?style=flat-square&logo=tailwindcss" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Prisma-ORM-2D3748?style=flat-square&logo=prisma" alt="Prisma" />
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" />
+  </p>
+</div>
+
+---
 
 ## 📖 Project Overview
 
