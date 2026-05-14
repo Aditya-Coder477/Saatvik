@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Shield, Truck, CreditCard, Smartphone, Banknote, Lock } from "lucide-react";
@@ -30,7 +31,7 @@ export default function CheckoutPage() {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center">
         <p className="text-earth mb-4">Nothing to checkout.</p>
-        <a href="/category/traditional" className="text-sm text-gold hover:text-gold-dark">Continue shopping</a>
+        <Link href="/category/new-arrivals" className="text-sm text-gold hover:text-gold-dark">Continue shopping</Link>
       </div>
     );
   }
