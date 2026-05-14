@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from "react";
 import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { SlidersHorizontal, X, ChevronDown, ArrowRight, Filter } from "lucide-react";
+import { X, ChevronDown, Filter } from "lucide-react";
 import { products } from "@/data/products";
 import { categories } from "@/data/categories";
 import ProductCard from "@/components/product/ProductCard";
