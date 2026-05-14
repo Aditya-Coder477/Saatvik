@@ -83,8 +83,19 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
               </Link>
             </nav>
 
+            {/* Sticky Mobile CTA */}
+            <div className="p-6 border-t border-sand bg-white shrink-0">
+              <Link
+                href="/category/new-arrivals"
+                onClick={onClose}
+                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-full text-white uppercase tracking-widest font-semibold text-xs shadow-lg shadow-coral/25"
+                style={{ background: "linear-gradient(135deg, #E8614A, #F4A57B)" }}
+              >
+                Shop New Arrivals
+              </Link>
+            </div>
             {/* Footer */}
-            <div className="p-6 border-t border-sand">
+            <div className="p-6 border-t border-sand bg-cream shrink-0">
               <p className="text-xs text-earth text-center">
                 Pure &middot; Premium &middot; Curated
               </p>

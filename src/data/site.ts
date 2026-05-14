@@ -1,11 +1,14 @@
 import { NavItem } from "@/types";
 
 export const navItems: NavItem[] = [
-  { label: "New In", href: "/category/western?sort=newest" },
-  { label: "Traditional", href: "/category/traditional" },
-  { label: "Western", href: "/category/western" },
-  { label: "Best Sellers", href: "/category/traditional?sort=popularity" },
-  { label: "Our Story", href: "/our-story" },
+  { label: "New Arrivals", href: "/category/new-arrivals" },
+  { label: "Festive Wear", href: "/category/festive-wear" },
+  { label: "Kurtas", href: "/category/kurtas" },
+  { label: "Dresses", href: "/category/dresses" },
+  { label: "Sarees", href: "/category/sarees" },
+  { label: "About Us", href: "/about-us" },
+  { label: "Journal", href: "/journal" },
+  { label: "Account", href: "/account" },
 ];
 
 export const trustBadges = [

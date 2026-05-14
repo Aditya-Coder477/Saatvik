@@ -5,7 +5,7 @@ export const products: Product[] = [
     id: "1",
     name: "Regal Chanderi Anarkali",
     slug: "regal-chanderi-anarkali",
-    category: "traditional",
+    category: "festive-wear",
     subcategory: "Anarkalis",
     price: 8499,
     originalPrice: 10999,
@@ -48,7 +48,7 @@ export const products: Product[] = [
     id: "2",
     name: "Lucknowi Chikankari Kurta Set",
     slug: "lucknowi-chikankari-kurta-set",
-    category: "traditional",
+    category: "kurtas",
     subcategory: "Kurta Sets",
     price: 6299,
     originalPrice: 7999,
@@ -91,7 +91,7 @@ export const products: Product[] = [
     id: "3",
     name: "Handloom Wrap Saree",
     slug: "handloom-wrap-saree",
-    category: "traditional",
+    category: "sarees",
     subcategory: "Sarees",
     price: 5799,
     originalPrice: 6999,
@@ -129,7 +129,7 @@ export const products: Product[] = [
     id: "4",
     name: "Gota-Patti Organza Set",
     slug: "gota-patti-organza-set",
-    category: "traditional",
+    category: "festive-wear",
     subcategory: "Organza Sets",
     price: 9999,
     originalPrice: 12999,
@@ -171,7 +171,7 @@ export const products: Product[] = [
     id: "5",
     name: "Heritage Banarasi Dupatta Set",
     slug: "heritage-banarasi-dupatta-set",
-    category: "traditional",
+    category: "kurtas",
     subcategory: "Kurta Sets",
     price: 7499,
     description:
@@ -213,7 +213,7 @@ export const products: Product[] = [
     id: "6",
     name: "Boho-Chic Maxi Dress",
     slug: "boho-chic-maxi-dress",
-    category: "western",
+    category: "dresses",
     subcategory: "Maxi Dresses",
     price: 4299,
     originalPrice: 5499,
@@ -256,7 +256,7 @@ export const products: Product[] = [
     id: "7",
     name: "Structured Linen Co-ord Set",
     slug: "structured-linen-coord-set",
-    category: "western",
+    category: "new-arrivals",
     subcategory: "Co-ord Sets",
     price: 5499,
     description:
@@ -298,7 +298,7 @@ export const products: Product[] = [
     id: "8",
     name: "Satin Slip Dress",
     slug: "satin-slip-dress",
-    category: "western",
+    category: "dresses",
     subcategory: "Slip Dresses",
     price: 3799,
     originalPrice: 4599,
@@ -341,7 +341,7 @@ export const products: Product[] = [
     id: "9",
     name: "Corset-Style Bustier Top",
     slug: "corset-style-bustier-top",
-    category: "western",
+    category: "new-arrivals",
     subcategory: "Tops",
     price: 2999,
     description:
@@ -382,7 +382,7 @@ export const products: Product[] = [
     id: "10",
     name: "Oversized Blazer Set",
     slug: "oversized-blazer-set",
-    category: "western",
+    category: "new-arrivals",
     subcategory: "Co-ord Sets",
     price: 6799,
     originalPrice: 8499,
@@ -431,7 +431,7 @@ export function getProductBySlug(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
 }
 
-export function getProductsByCategory(category: "traditional" | "western"): Product[] {
+export function getProductsByCategory(category: string): Product[] {
   return products.filter((p) => p.category === category);
 }
 
