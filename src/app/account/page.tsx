@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { User, Package, Heart, Settings, LogOut, ChevronRight, ShoppingBag } from "lucide-react";
 import Link from "next/link";
 
@@ -168,6 +168,3 @@ export default function AccountPage() {
     </div>
   );
 }
-
-// Needed for AnimatePresence
-import { AnimatePresence } from "framer-motion";
