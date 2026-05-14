@@ -15,7 +15,7 @@ export interface Product {
   id: string;
   name: string;
   slug: string;
-  category: "traditional" | "western";
+  category: "new-arrivals" | "festive-wear" | "kurtas" | "dresses" | "sarees" | string;
   subcategory: string;
   price: number;
   originalPrice?: number;
